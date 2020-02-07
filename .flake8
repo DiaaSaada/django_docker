@@ -1,6 +1,5 @@
 [flake8]
-exclude =
-  migrations,
-  _pycache_,
-  manage.py,
-  settings.py
+max-line-length = 160
+exclude = settings.py, settings.py, manage.py, migrations/*,_pycache_/*
+  
+  
